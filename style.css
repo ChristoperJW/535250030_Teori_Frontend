@@ -1,36 +1,58 @@
 body {
-    margin: 0;   
-    font-family:
-    Arial, sans-serif;
+    margin: 0;
+    font-family: Calibri, sans-serif;
+    color: #64a16d;
 }
 
 header {
-    padding: 30px;
-    text-align: center;    
-    background: #eeeeee;
+    padding: 25px;
+    text-align: center;
+    background: #70ff4d;
+    color: #ffffff;
 }
 
 nav {
-    padding: 15px;
-    text-align: center;    
-    background: #b97b7b;
+    padding: 10px;
+    text-align: center;
+    background: #3d94aa;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 article {
-    padding: 30px;  
-    max-width: 900px;    
+    padding: 30px;
+    border-top: 3px solid #6cf767;
+    border-bottom: 3px solid #6cf767;
+    max-width: 700px;
     margin: auto;
+    line-height: 1.6;
 }
 
-.profile-card {
-    max-width: 800px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 8px;
+ul {
+
+    padding: 4;
+}
+
+h2 {
+    color: #106fae;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #106fae;
+    text-align: center;
 }
 
 footer {
-    padding: 20px;
-    text-align: center;    
-    background: #eeeeee;
+    padding: 5px;
+    text-align: center;
+    background: #c03434;
+    font-size: 10px;
 }
