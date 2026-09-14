@@ -1,3 +1,5 @@
+/* Default styles for PC/Laptop */
+
 body {
     margin: 0;
     font-family: Calibri, sans-serif;
@@ -28,13 +30,14 @@ article {
     border-top: 3px solid #6cf767;
     border-bottom: 3px solid #6cf767;
     max-width: 700px;
-    margin: auto;
+    width: 90%; 
+    box-sizing: border-box;
+    margin: 20px auto;
     line-height: 1.6;
 }
 
 ul {
-
-    padding: 4;
+    padding-left: 20px; 
 }
 
 h2 {
@@ -55,4 +58,42 @@ footer {
     text-align: center;
     background: #c03434;
     font-size: 10px;
+    color: #ffffff;
+}
+
+/* Perubahan untuk tampilan tablet */
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    
+    article {
+        padding: 20px;
+        width: 95%;
+    }
+}
+
+/* Perubahan untuk tampilan smartphone */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0;
+        padding: 8px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    article {
+        padding: 15px;
+    }
 }
